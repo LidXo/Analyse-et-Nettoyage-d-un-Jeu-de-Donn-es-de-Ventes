@@ -1,0 +1,19 @@
+# Environnement virtuel
+.venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Données brutes et volumineuses
+data/raw/*
+
+# Configuration locale
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
