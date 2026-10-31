@@ -1,19 +1,31 @@
-# Environnement virtuel
-.venv/
 
-# Fichiers Python temporaires
+# Environnements Python
+venv/
+.venv/
+env/
+
+# Cache Python
 __pycache__/
 *.py[cod]
 
-# Notebooks
+# Jupyter
 .ipynb_checkpoints/
-
-# Données brutes et volumineuses
-data/raw/*
-
-# Configuration locale
-.env
 
 # Fichiers système
 .DS_Store
 Thumbs.db
+
+# Données brutes et exports volumineux
+data/raw/*
+data/processed/*
+
+# Conserver les dossiers dans Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+
+# Configuration locale
+.kilo/
+
+# Environnement virtuel
+.venv/
